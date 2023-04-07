@@ -18,7 +18,7 @@ namespace TelegramBot_v1
     {
       
 
-        static readonly string token = "5638295263:AAF9NqXBUbXujx-v6mukW2_clXSK8iRchnE";
+        static readonly string token = "Your API-KEY";
         static ITelegramBotClient Bot = new TelegramBotClient(token);
         public static string SendMessage(string message, long chatID)
         {
